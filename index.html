@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex Wambua Portfolio Website</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://kit.fontawesome.com/202d73d088.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header"> 
+    <div class="topnav">
+    <nav>
+        <img src="images/my_logo.png" class="logo"> <h1 class="aw"><br>AW-TECHNOLOGIES</h1>
+        <ul id="sidemenu">
+            <li><a href='#header'><strong>Home</strong></a></li>
+            <li><a href='#about'><strong>About</strong></a></li>
+            <li><a href='#services'><strong>Services</strong></a></li>
+            <li><a href='#portfolio'><strong>Portfolio</strong></a></li>
+            <li><a href='#contact'><strong>Contacts</strong></a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+        </ul>
+        <i class="fas fa-bars" onclick="openmenu()"></i>
+</nav>
+</div>
+<div class="header-text container">
+    <p><b><br><br><br>SOFTWARE DEVELOPER</b></p>
+    <h1><br>Hi, I'm &nbsp;<span><strong>Alex Wambua</strong></span></h1>
+    <h2><b> PHP, LARAVEL<br> PYTHON, DJANGO<br> JAVASCRIPT<br> REACT, VUE<br> C, C++<br> VISUAL BASIC<br> HTML5 and CSS3<br> MySQL</b></h2>
+</div>
+</div>
+<!-----------------about-------->
+<div id="about"></div>
+<div class="container">
+    <div class="row">
+        <div class="about-col-1"><br><br><br><br><br>
+            <img src="images/user.JPG">
+        </div>
+        <div class="about-col-2">
+        <h1 class="sub-title">About Me</h1><br>
+    <p>I'm a programmer with experience in programming languages such as PHP, 
+        Python, Javascript, C, C++, VB6.0, HTML5 and CSS3. 
+        MySQL and SQL for database, git and github for version control. 
+        I have also worked with frameworks such as Laravel, Django, jQuery, and Bootstrap.
+        In addition to my coding skills, I am also proficient in MS Excel and graphics design.
+        I am motivated and enthusiastic about learning new things.</p>
+   
+   <div class="tab-titles">
+    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+    <p class="tab-links"onclick="opentab('experience')">Experience</p>
+    <p class="tab-links"onclick="opentab('education')">Education</p>
+   </div>
+  
+   <div class="tab-contents active-tab" id="skills">
+    <ul>
+        <li><span>Web Development</span><br>Website designing and building</li><br><br>
+        <li><span>App Development</span><br>Developing Desktop Apps</li><br><br>
+        <li><span>Networking</span><br>Networking support and maintenance</li><br><br>
+        <li><span>Domain Operations</span><br>Active directory operations</li><br><br>
+        <li><span>Technical Support</span><br>Tier 1&2 helpdesk support</li><br><br>
+        
+    </ul>
+    </div>
+    <div class="tab-contents" id="experience">
+        <ul>
+            <p>I have more than 2 years of programming and experience in ICT.</p>
+        </ul>
+        </div> <div class="tab-contents" id="education">
+            <ul>
+               <p> I have a Diploma course in ICT,
+                 which has given me a strong foundation in the basics of programming and ICT. </p>
+            </ul>
+            </div>
+</div>
+</div>
+<!-----------------Services---------->
+<div id="services">
+ <div class="container">
+    <h1 class="sub-title">My Services</h1>
+    <div class="services-list">
+       <div>
+        <i class="fa-solid fa-code"></i>
+        <h2>Web Development</h2>
+        <p>Design and construction of websites. Creating website layout/user 
+            interface by using standard HTML/CSS practices and Javascript. 
+            Integrate data from various back-end services and databases. PHP, Python, MySQL. 
+           </p>
+            <a href="#">Learn more</a>
+       </div>
+       <div>
+        <i class="fa-solid fa-crop-simple"></i>
+        <h2>Graphics Design</h2>
+        <p>Develop compelling graphics and layouts for use on websites,
+             social media and in print materials.</p>
+            <a href="#">Learn more</a>
+       </div>
+       <div><i class="fa-brands fa-app-store"></i>
+        <h2>App Development</h2>
+        <p>Developing and modifying source code for software applications.</p>
+            <a href="#">Learn more</a>
+       </div> 
+    </div>
+ </div>   
+</div>
+<!-----------------portfolio---------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+    <div class="work-list">
+        <div class="work">
+            <img src="images/work-1.png">
+        <div class="layer">
+          <h3>Employee Management System</h3>
+          <p>VB6.0 and MS Access</p>
+             <a href="https://youtu.be/lTVWWWSjwBE?si=VO6YNESK-vf4Sti0"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>  
+        </div>
+        </div>
+        <div class="work">
+            <img src="images/work-2.png">
+            <div class="layer">
+                <h3>Library Management System</h3>
+                <p>Python and Sqlite3</p>
+                   <a href="https://youtu.be/zou-liDiK2U?si=fiqEi6-768s4O2gA"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>  
+              </div>
+        </div>
+        <div class="work">
+            <img src="images/work-3.png">
+            <div class="layer">
+                <h3>Percel Delivery System</h3>
+                <p>PHP and Mysql</p>
+                   <a href="https://youtu.be/4tpc44VlJ5E?si=wzp_V3GZFhCtfIUI"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>  
+              </div>
+        </div>
+    </div>
+    <a href="https://awcd.my.canva.site/" class="btn">See More</a>
+    <a href="https://www.g-techs.co.ke/" class="butn">Softwares</a>
+</div>
+
+</div>
+
+<!-----------------contact---------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i>&nbsp;&nbsp;alekimacre@gmail.com</p>
+            <p><i class="fa-solid fa-square-phone"></i>&nbsp;&nbsp;0713454232</p>
+            <div class="social-icons">
+                <a href="https://web.facebook.com/alex.wambua2"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://twitter.com/AlekiWambua"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/alex-wambua-222672241/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.youtube.com/channel/UCza8Qod4N6OX1gF5U56JZnQ"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+        <a href="images/doc.pdf" download class="btn btn2">Download CV</a>
+    </div>
+            <div class="contact-right">
+             <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+             </form> 
+             <span id="msg"></span>  
+            </div>
+    </div>
+    </div>
+    <div class="copyright">
+      <p>Copyright © Alex Wambua 2024 <i class="fa-solid fa-heart"></i></p>  
+    </div>
+</div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+             tablink.classList.remove("active-link");   
+            }
+            for(tabcontent of tabcontents){
+             tabcontent.classList.remove("active-tab");   
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+function openmenu(){
+    sidemenu.style.right = "0";
+}
+function closemenu(){
+    sidemenu.style.right = "-200px";
+}
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbz8z-JA1HQCmmGEMge0bKKK1qdnRMcmgQF43pIjmX07jShZuXnTpTh8IfKWNhnOt8s/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg= document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+            msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
