@@ -57,7 +57,7 @@ nav ul li{
 
 }
 nav ul li a{
-    color: #1100ff;
+    color: #fff;
     text-decoration: none;
     font-size: 18px;
     position: relative;
@@ -90,7 +90,7 @@ nav ul li a:hover::after{
     color: yellow;
 }
 .header-text h1 span{
-    color:  #f23106;
+    color:  #ff004f;
     
 }
 .header-text p{
@@ -103,14 +103,14 @@ nav ul li a:hover::after{
     text-align: right;
     margin-top: -30%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 30px; 
+
 }
 .aw{
-    color:  blue;
-    margin-left: -10%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:  rgb(3, 177, 246);
+    margin-left: -5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 40px;
-    margin-top: -2%;
+    margin-top: -5%;
 }
 /*-----------about----------*/
 #about{
@@ -252,7 +252,7 @@ nav ul li a:hover::after{
     flex-direction: column;
     padding: 0 40px;
     text-align: center;
-    transition: heigt 0.5s;
+    transition: height 0.5s;
 }
 .layer h3{
     font-weight: 500;
@@ -373,7 +373,8 @@ form .btn2{
   padding:25px 0; 
   background: #262626;
   font-weight: 300;
-  margin-top: 20px; 
+  margin-top: 20px;
+   
 }
 .copyright i{
  color: #ff004f;   
