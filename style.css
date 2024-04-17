@@ -23,8 +23,7 @@ body{
 }
 .container{
     padding: 30px 5%;
-    
-    
+       
 }
 
 .topnav {
@@ -101,7 +100,7 @@ nav ul li a:hover::after{
     color:   #ff004f;
     font-size: 30px;
     text-align: right;
-    margin-top: -30%;
+    margin-top: -31%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
@@ -112,6 +111,33 @@ nav ul li a:hover::after{
     font-size: 40px;
     margin-top: -5%;
 }
+
+.floating{
+	position:fixed;
+	width:62px;
+	height:62px;
+	bottom:40px;
+	right:40px;
+	background-color:green;
+	color:#FFFFFF;
+	border-radius:50px;
+	text-align:center;
+    font-size:50px;
+	box-shadow: 2px 2px 3px hsl(246, 98%, 50%);
+  z-index:100;
+}
+
+.floating-m{
+	margin-top:6px;
+   
+    
+   }
+
+.floating:hover{
+    transform: scale(1.1);
+    }
+
+
 /*-----------about----------*/
 #about{
     padding: 0px 0;
@@ -491,5 +517,9 @@ nav ul .fas{
     transition: background 0.5s;
    
 }
+}
+
+.floating {
+    display: block;
 }
 
